@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>E - Book ~ Home Page | Chooses Every Book That You Want</title>
+    <link rel="shortcut icon" href="/new_html/img/image_2026-06-25_025053546-removebg-preview.png" type="image/x-icon">
+  </head>
+  <body class="bg-slate-50 text-slate-800 font-sans antialiased">
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a
+              href="/new_html/html/home.html"
+              class="flex-shrink-0 flex items-center"
+            >
+              <svg
+                class="h-8 w-8 text-indigo-600"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+              <span class="ml-2 text-xl font-bold text-gray-800">E-Book</span>
+            </a>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="/new_html/html/index.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >Home</a
+            >
+            <a
+              href="/new_html/html/E_book.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >E - Book</a
+            >
+            <a
+              href="/new_html/html/about.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >About</a
+            >
+            <a
+              href="/new_html/html/contact.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >Contact</a
+            >
+
+            <!-- Desktop CTA -->
+              <a
+                href="/new_html/html/index.html"
+                class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="flex items-center md:hidden">
+            <button
+              id="mobile-menu-button"
+              class="inline-flex items-center justify-center p-2 rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu-->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white border-t border-gray-100"
+      >
+        <div class="px-4 pt-2 pb-3 space-y-1">
+          <a
+            href="#"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >E-book</a
+          >
+          <a
+            href="#"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >About</a
+          >
+          <a
+            href="#"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >Contact</a
+          >
+
+          <!-- Mobile CTA -->
+          <div class="pt-4 pb-2 space-y-2">
+            <a
+              href="#"
+              class="block w-full text-center text-gray-700 hover:text-indigo-600 px-3 py-2 text-base font-medium transition-colors duration-200"
+              >Sign In</a
+            >
+            <a
+              href="#"
+              class="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-lg text-base font-medium transition-colors duration-200"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+     <main class="bg-slate-50">
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <!-- Section Heading -->
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span
+            class="inline-block text-indigo-600 text-sm font-semibold tracking-wide uppercase mb-2"
+            >Browse the shelves</span
+          >
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
+            Categories
+          </h2>
+          <p class="mt-3 text-slate-600">
+            Find your next read by genre, faster.
+          </p>
+        </div>
+
+        <!-- Category Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Technology -->
+          <a
+            href="/new_html/html/technology.html"
+            class="group bg-white rounded-2xl shadow-md hover:shadow-xl border border-slate-100 p-6 flex flex-col items-start transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="h-12 w-12 flex items-center justify-center rounded-xl bg-indigo-50 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300 mb-4"
+            >
+              <svg
+                class="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <rect x="9" y="9" width="6" height="6" />
+                <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Technology</h3>
+            <p class="mt-1 text-sm text-slate-500">
+              Code, gadgets, and the future of computing.
+            </p>
+          </a>
+
+          <!-- Biology -->
+          <a
+            href="/new_html/html/biology.html"
+            class="group bg-white rounded-2xl shadow-md hover:shadow-xl border border-slate-100 p-6 flex flex-col items-start transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="h-12 w-12 flex items-center justify-center rounded-xl bg-emerald-50 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300 mb-4"
+            >
+              <svg
+                class="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M11 21a17 17 0 0 1 0-18M13 3a17 17 0 0 1 0 18M3.5 14.5c2-1 4-1.5 7.5-1.5s5.5.5 7.5 1.5M3.5 9.5c2 1 4 1.5 7.5 1.5s5.5-.5 7.5-1.5"
+                />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Biology</h3>
+            <p class="mt-1 text-sm text-slate-500">
+              Life sciences, nature, and the human body.
+            </p>
+          </a>
+
+          <!-- Historical -->
+          <a
+            href="/new_html/html/historical.html"
+            class="group bg-white rounded-2xl shadow-md hover:shadow-xl border border-slate-100 p-6 flex flex-col items-start transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="h-12 w-12 flex items-center justify-center rounded-xl bg-amber-50 text-amber-600 group-hover:bg-amber-600 group-hover:text-white transition-colors duration-300 mb-4"
+            >
+              <svg
+                class="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Historical</h3>
+            <p class="mt-1 text-sm text-slate-500">
+              Stories and events that shaped our world.
+            </p>
+          </a>
+
+          <!-- Famous Book -->
+          <a
+            href="/new_html/html/Famous.html"
+            class="group bg-white rounded-2xl shadow-md hover:shadow-xl border border-slate-100 p-6 flex flex-col items-start transition-all duration-300 hover:-translate-y-1"
+          >
+            <div
+              class="h-12 w-12 flex items-center justify-center rounded-xl bg-rose-50 text-rose-600 group-hover:bg-rose-600 group-hover:text-white transition-colors duration-300 mb-4"
+            >
+              <svg
+                class="h-6 w-6"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                />
+              </svg>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900">Famous Book</h3>
+            <p class="mt-1 text-sm text-slate-500">
+              Bestsellers and timeless classics everyone loves.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-zinc-900 text-zinc-400 font-sans mt-auto">
+      <!-- Top Section-->
+      <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+           <!-- Brand Info -->
+          <div>
+             <h3 class="text-white text-lg font-semibold mb-4">E - Book</h3>
+             <p class="text-sm leading-relaxed max-w-sm">
+             Explore Every Mordern Book and Popular Book Now.
+            </p>
+          </div>
+    <!--Quick Links -->
+    <div>
+      <h4 class="text-white text-base font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2.5 text-sm">
+        <li>
+          <a href="#home" class="hover:text-sky-400 transition-colors duration-200">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="hover:text-sky-400 transition-colors duration-200">About Us</a>
+        </li>
+        <li>
+          <a href="#services" class="hover:text-sky-400 transition-colors duration-200">E - Book</a>
+        </li>
+        <li>
+          <a href="#contact" class="hover:text-sky-400 transition-colors duration-200">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!--Contact Info -->
+    <div>
+      <h4 class="text-white text-base font-semibold mb-4">Contact Us</h4>
+      <div class="space-y-1.5 text-sm">
+        <p>Email: <a href="mailto:hello@yourbrand.com" class="hover:text-white transition-colors">sokmekskyy@gmail.com</a></p>
+        <p>Phone: +85587469080</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Copyright & Socials -->
+  <div class="border-t border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+      <p>&copy; 2026 YourBrand. All rights reserved.</p>
+      
+      <div class="flex items-center space-x-4">
+        <a href="#" class="hover:text-sky-400 transition-colors duration-200">Twitter</a>
+        <a href="#" class="hover:text-sky-400 transition-colors duration-200">LinkedIn</a>
+        <a href="#" class="hover:text-sky-400 transition-colors duration-200">GitHub</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="/new_html/js/e_book.js"></script>
+</body>
+</html>

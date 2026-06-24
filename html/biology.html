@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>E - Book ~ Biology Book | Chooses Every Book That You Want</title>
+    <link rel="shortcut icon" href="/new_html/img/image_2026-06-25_025053546-removebg-preview.png" type="image/x-icon">
+  </head>
+  <body class="bg-slate-50 text-slate-800 font-sans antialiased">
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <a
+              href="/new_html/html/home.html"
+              class="flex-shrink-0 flex items-center"
+            >
+              <svg
+                class="h-8 w-8 text-indigo-600"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5" />
+                <path d="M2 12l10 5 10-5" />
+              </svg>
+              <span class="ml-2 text-xl font-bold text-gray-800">E-Book</span>
+            </a>
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="/new_html/html/index.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >Home</a
+            >
+            <a
+              href="/new_html/html/E_book.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >E - Book</a
+            >
+            <a
+              href="/new_html/html/about.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >About</a
+            >
+            <a
+              href="/new_html/html/contact.html"
+              class="text-gray-700 hover:text-indigo-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >Contact</a
+            >
+
+            <!-- Desktop CTA -->
+              <a
+                href="/new_html/html/index.html"
+                class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <div class="flex items-center md:hidden">
+            <button
+              id="mobile-menu-button"
+              class="inline-flex items-center justify-center p-2 rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu-->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white border-t border-gray-100"
+      >
+        <div class="px-4 pt-2 pb-3 space-y-1">
+          <a
+            href="/new_html/html/index.html"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >Home</a
+          >
+          <a
+            href="/new_html/html/E_book.html"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >E-book</a
+          >
+          <a
+            href="/new_html/html/about.html"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >About</a
+          >
+          <a
+            href="/new_html/html/E_book.html"
+            class="block text-gray-700 hover:text-indigo-600 hover:bg-gray-50 px-3 py-2 rounded-lg text-base font-medium transition-colors duration-200"
+            >Contact</a
+          >
+
+          <!-- Mobile CTA -->
+          <div class="pt-4 pb-2 space-y-2">
+            <a
+              href="#"
+              class="block w-full text-center text-gray-700 hover:text-indigo-600 px-3 py-2 text-base font-medium transition-colors duration-200"
+              >Sign In</a
+            >
+            <a
+              href="/new_html/html/E_book.html"
+              class="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-3 rounded-lg text-base font-medium transition-colors duration-200"
+            >
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+     <main class="bg-slate-50">
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <!-- Section Heading -->
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span
+            class="inline-block text-indigo-600 text-sm font-semibold tracking-wide uppercase mb-2"
+            >Browse the shelves</span
+          >
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">
+            Biology E - Book
+          </h2>
+          <p class="mt-3 text-slate-600">
+            Find your next read by genre, faster and Select and download resources for your project.
+          </p>
+        </div>
+
+        <!-- Category Cards -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+    <div class="group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+      <div class="aspect-[3/4] w-full bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col justify-between p-6 text-white relative">
+        <img 
+        src="/new_html/img/biology/51B0-CRw4PL._AC_UF1000,1000_QL80_.jpg" 
+        alt="biology"
+        class="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
+        >
+      </div>
+      
+      <div class="flex flex-1 flex-col p-5">
+        <div class="flex-1">
+          <span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10 mb-2">PDF</span>
+          <h4 class="text-md font-semibold text-gray-900 line-clamp-1">Campbell Biology by Lisa A. Urry, Michael L. Cain, et al.</h4>
+          <p class="mt-2 text-sm text-gray-500 line-clamp-3">
+            This is widely considered the "gold standard" textbook for introductory biology worldwide.
+          </p>
+        </div>
+        
+        <div class="mt-6">
+          <a href="#" download class="flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Download Resource
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+      <div class="aspect-[3/4] w-full bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col justify-between p-6 text-white relative">
+        <img 
+        src="/new_html/img/biology/61dtRkUbfRL._AC_UF1000,1000_QL80_.jpg" 
+        alt="biology"
+         class="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
+        >
+      </div>
+      
+      <div class="flex flex-1 flex-col p-5">
+        <div class="flex-1">
+          <span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10 mb-2">PDF</span>
+          <h4 class="text-md font-semibold text-gray-900 line-clamp-1">The Selfish Gene by Richard Dawkins</h4>
+          <p class="mt-2 text-sm text-gray-500 line-clamp-3">
+            A monumental book that shifted how we look at evolution. It argues that natural selection operates at the level of the gene rather than the organism or species, changing the way we understand behavior, altruism, and genetic survival.
+          </p>
+        </div>
+        
+        <div class="mt-6">
+          <a href="#" download class="flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Download Resource
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+      <div class="aspect-[3/4] w-full bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col justify-between p-6 text-white relative">
+        <img 
+        src="/new_html/img/biology/27276428.jpg" 
+        alt="technology">
+      </div>
+      
+      <div class="flex flex-1 flex-col p-5">
+        <div class="flex-1">
+          <span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10 mb-2">PDF</span>
+          <h4 class="text-md font-semibold text-gray-900 line-clamp-1">The Gene: An Intimate History by Siddhartha Mukherjee</h4>
+          <p class="mt-2 text-sm text-gray-500 line-clamp-3">
+            Written by a Pulitzer Prize-winning author and oncologist, this book masterfully weaves together the history of genetic science, the personal stories of the scientists who mapped the genome, and the massive ethical implications of modern gene editing.
+          </p>
+        </div>
+        
+        <div class="mt-6">
+          <a href="#" download class="flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Download Resource
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+      <div class="aspect-[3/4] w-full bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col justify-between p-6 text-white relative">
+        <img 
+        src="/new_html/img/biology/27213168.jpg" 
+        alt="technology">
+      </div>
+      
+      <div class="flex flex-1 flex-col p-5">
+        <div class="flex-1">
+          <span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10 mb-2">PDF</span>
+          <h4 class="text-md font-semibold text-gray-900 line-clamp-1">I Contain Multitudes: The Microbes Within Us and a Grander View of Life by Ed Yong</h4>
+          <p class="mt-2 text-sm text-gray-500 line-clamp-3">
+            This book completely changes your perspective on what it means to be an individual. It dives deep into the microscopic world of the microbiome, showing how bacteria living inside humans and animals shape our health, behavior, and evolutionary history.
+          </p>
+        </div>
+        
+        <div class="mt-6">
+          <a href="#" download class="flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Download Resource
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="group relative flex flex-col overflow-hidden rounded-2xl bg-white border border-gray-100 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+      <div class="aspect-[3/4] w-full bg-gradient-to-br from-indigo-500 to-purple-600 flex flex-col justify-between p-6 text-white relative">
+        <img 
+        src="/new_html/img/biology/52668915.jpg" 
+        alt="technology">
+      </div>
+      
+      <div class="flex flex-1 flex-col p-5">
+        <div class="flex-1">
+          <span class="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10 mb-2">PDF</span>
+          <h4 class="text-md font-semibold text-gray-900 line-clamp-1">Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures by Merlin Sheldrake</h4>
+          <p class="mt-2 text-sm text-gray-500 line-clamp-3">
+            Fungi are neither plants nor animals, yet they sustain life on Earth. This fascinating book explores the hidden, sprawling underground networks of mycelium that connect forests, digest pollutants, and demonstrate a strange kind of collective intelligence.
+          </p>
+        </div>
+        
+        <div class="mt-6">
+          <a href="#" download class="flex w-full items-center justify-center gap-2 rounded-xl bg-gray-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Download Resource
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+      </section>
+    </main>
+    <footer class="bg-zinc-900 text-zinc-400 font-sans mt-auto">
+      <!-- Top Section-->
+      <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+           <!-- Brand Info -->
+          <div>
+             <h3 class="text-white text-lg font-semibold mb-4">E - Book</h3>
+             <p class="text-sm leading-relaxed max-w-sm">
+             Explore Every Mordern Book and Popular Book Now.
+            </p>
+          </div>
+    <!--Quick Links -->
+    <div>
+      <h4 class="text-white text-base font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2.5 text-sm">
+        <li>
+          <a href="#home" class="hover:text-sky-400 transition-colors duration-200">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="hover:text-sky-400 transition-colors duration-200">About Us</a>
+        </li>
+        <li>
+          <a href="#services" class="hover:text-sky-400 transition-colors duration-200">E - Book</a>
+        </li>
+        <li>
+          <a href="#contact" class="hover:text-sky-400 transition-colors duration-200">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!--Contact Info -->
+    <div>
+      <h4 class="text-white text-base font-semibold mb-4">Contact Us</h4>
+      <div class="space-y-1.5 text-sm">
+        <p>Email: <a href="mailto:hello@yourbrand.com" class="hover:text-white transition-colors">sokmekskyy@gmail.com</a></p>
+        <p>Phone: +85587469080</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Copyright & Socials -->
+  <div class="border-t border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+      <p>&copy; 2026 YourBrand. All rights reserved.</p>
+      
+      <div class="flex items-center space-x-4">
+        <a href="#" class="hover:text-sky-400 transition-colors duration-200">Twitter</a>
+        <a href="#" class="hover:text-sky-400 transition-colors duration-200">LinkedIn</a>
+        <a href="#" class="hover:text-sky-400 transition-colors duration-200">GitHub</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="/new_html/js/e_book.js"></script>
+</body>
+</html>
